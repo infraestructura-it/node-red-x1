@@ -1,0 +1,21 @@
+[
+  {
+    "id": "inject1",
+    "type": "inject",
+    "name": "Hola Mundo",
+    "props": [],
+    "repeat": "",
+    "crontab": "",
+    "once": true,
+    "onceDelay": 0.1,
+    "wires": [["debug1"]]
+  },
+  {
+    "id": "debug1",
+    "type": "debug",
+    "name": "Salida",
+    "active": true,
+    "tosidebar": true,
+    "wires": []
+  }
+]
